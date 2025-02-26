@@ -64,6 +64,7 @@ namespace pr3_c2_kachalov_3isip_322
 
                 OutputResult.Text = speed.ToString("F2");
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show($"Произошла ошибка: {ex.Message}");
